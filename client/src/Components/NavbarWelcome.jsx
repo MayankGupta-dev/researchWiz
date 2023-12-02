@@ -1,12 +1,13 @@
 import "./NavbarWelcome.css";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
 export default function NavbarWelcome({ navType }) {
   return (
     <header>
       <div className="container">
         <Link to="/" className="logo">
+        <img src='./logo.png' alt="Logo" className="logo-img" />
+
           <b>ResearchWiz</b>
         </Link>
         <ul className="links">

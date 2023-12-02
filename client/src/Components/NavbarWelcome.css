@@ -34,7 +34,11 @@ header {
     text-transform: uppercase;
     font-size: 20px;
   }
-  
+  img, svg {
+    vertical-align: middle;
+    width: 40px;
+    padding-top: 0;
+}
   @media (max-width: 767px) {
     header .logo {
       margin-top: 20px;

@@ -16,10 +16,16 @@ export default function InnerNavbar() {
           <Link to="#">
             <li>Graph</li>
           </Link>
-          <Link to="#">
+          <Link to="/userprofile">
             {/* Replace the "Profile" text with the User icon */}
             <li>
               <FaUser /> {/* Rendering the User icon */}
+            </li>
+          </Link>
+          <Link to="#">
+            {/* Replace the "Profile" text with the User icon */}
+            <li>
+              Logout
             </li>
           </Link>
         </ul>
